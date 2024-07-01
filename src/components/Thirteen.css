@@ -1,0 +1,113 @@
+
+.xzcontainer {
+  width: 100%;
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.xzheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  margin-bottom: 20px;
+  background-color: #cdefef;
+}
+.xzheader img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.xzheader h1 {
+  font-size: 20px;
+  margin: 0;
+  flex-grow: 1;
+}
+.xzheader h2{
+  font-size: 20px;
+
+}
+.xzheader button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.xzcomposition {
+  border-bottom: 1px solid #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.xzcomposition img {
+  width: 80%;
+  border-radius: 8px;
+  max-width: 450px;
+  height: 200px;
+}
+
+.xzthree h1 {
+  font-size: 18px;
+  margin-top: 6px;
+  text-align: center;
+  color: gray;
+  font-weight: bolder;
+  font-size: x-large;
+}
+.xzaction_div{
+  position: absolute;
+  top: 30px; 
+  right: -20px; 
+}
+
+.xzbtnn_1{
+  border: none;
+  background-color: none;
+  font-size: 25px;
+}
+.xzaction_div >button{
+  padding: 15px 20px;
+  transition-duration: 0.2s;
+  margin-right: 30px;
+  height: 20px;
+}
+.xzaction_div > button:hover{
+  background-color: #88717146;
+  cursor: pointer;
+}
+
+
+.xzmy-div{
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+
+.xztbvideo{
+  position: sticky;
+  width: 50px;
+  height: 50px;
+  bottom: 150px;
+  margin-left: auto;
+  margin-right: 50px;
+  font-size: 20px;
+  padding-top:5px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+}

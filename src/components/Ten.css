@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+  }
+  .startytg{
+     display: flex;
+     justify-content: space-between;
+     background-color: #EAF6F6;
+     width: 100%;
+     height: 90px;
+     border-bottom-left-radius: 15px;
+     border-bottom-right-radius: 15px;
+     border-top-left-radius:5px ;
+     border-top-right-radius:5px ;
+     
+     
+  }
+  .startytg h2{
+    
+     display: flex;
+     align-items: center;
+     margin-left: 5px; 
+     margin-top: 35px;
+     position: relative;
+     background-color: lightgray;
+     height: 35px; 
+     width: 30px;
+     border-radius: 5px;
+     font-size: larger;
+     padding: 5px;
+     font-weight: bolder;
+     color: gray ;
+  
+  }.startytg img{
+  
+     border-radius: 60%;
+     margin-right: 5px;
+     position: relative;
+     height: 50px;
+     margin-top: 26px;
+  }
+  .startytg h1{
+     margin-top: 35px;
+     position: relative;
+     margin-top: 44px;
+     margin-left: 20px;
+  
+  } 
+   .textytg{
+    display:flex ; 
+    justify-content: center;
+    text-align: center;
+    left: -9.3rem;
+    position: relative;
+   
+
+  }
+  .inpuytg{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+ 
+  .inpuytg textarea{
+    
+       display: flex;
+       justify-content: center;
+       border-radius: 7px;
+       text-decoration: none;
+       margin-top: 10px;
+       resize: none;
+       width: 400px;
+       height: 140px;
+       border: 2px solid lightgrey;
+ 
+       
+    }
+    .inpuytg textarea::placeholder{
+       padding: 10px;
+       margin-top: 10px;
+       margin-left: 20px;
+       
+    }
+    
+     .geneytg{
+       display: flex;
+       justify-content: center;
+     }
+ .geneytg button{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 330px;
+    margin-top: 20px;
+    background-color:black;
+    color: white;
+    border-radius: 7px;
+ 
+ }  
+ 

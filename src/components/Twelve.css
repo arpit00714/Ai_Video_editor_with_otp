@@ -1,0 +1,142 @@
+* {
+  margin: 0%;
+}
+.kmstart {
+  display: flex;
+  justify-content: space-between;
+  background-color: #EAF6F6;
+  width: 100%;
+  height: 90px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.kmstart h2 {
+  margin-left: 5px;
+  margin-top: 35px;
+  position: relative;
+  background-color: lightgrey;
+  height: 35px;
+  width: 30px;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: lighter;
+  font-size:larger ;
+}
+.kmstart img {
+  border-radius: 60%;
+  margin-right: 5px;
+  position: relative;
+  height: 50px;
+  margin-top: 26px;
+}
+.kmstart h1 {
+  margin-top: 35px;
+  position: relative;
+  margin-top: 44px;
+  margin-left: 20px;
+}
+.kmtext {
+  display: flex;
+  justify-content: center;
+}
+
+.kmtext p {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: -260px;
+}
+
+.kminpu{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.kminpu textarea {
+  
+  border-radius: 7px;
+  text-decoration: none;
+  margin-top: 10px;
+  resize: none;
+  width: 400px;
+  height: 140px;
+  border: 2px solid lightgrey;
+  padding: 3px; 
+  
+}
+.kminpu textarea::placeholder {
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.kmgene {
+  display: flex;
+  justify-content: center;
+}
+.kmgene button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 330px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+}
+.kminpu1 {
+  display: flex;
+  justify-content: center;
+  resize: none;
+  padding: 10px;
+}
+.kmtext1 {
+  display: flex;
+  justify-content: center;
+}
+
+ .kmtext1 p {
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: -260px;
+} 
+
+
+.kminpu1 textarea {
+  display: flex;
+  justify-content: center;
+  border-radius: 7px;
+  text-decoration: none;
+  margin-top: 10px;
+  resize: none;
+  width: 400px;
+  height: 140px;
+  border: 2px solid lightgrey;
+  padding: 9px;
+}
+.kminpu1 textarea::placeholder {
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.kmgene1 {
+  display: flex;
+  justify-content: center;
+}
+.kmgene1 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 330px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+}

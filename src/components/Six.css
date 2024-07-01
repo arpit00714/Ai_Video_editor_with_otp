@@ -1,0 +1,71 @@
+
+*{
+  margin: 0%;
+} 
+.parentkk{
+  display: flex;
+  justify-content: space-between;
+  background-color: #EAF6F6;
+  width: 100%;
+  height: 100px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius:5px ;
+  border-top-right-radius:5px ; 
+}
+.parentkk p{
+  margin-left: 10px;
+  margin-top: 45px;
+  font-size: larger;
+ 
+
+}.parentkk img{
+
+  border-radius: 60%;
+  margin-right: 5px;
+  position: relative;
+  height: 50px;
+  margin-top: 26px;
+}
+.parentkk h1{
+  margin-top: 35px;
+  margin-left: 15px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.camy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.camy p{
+  margin-top: 140px;
+  font-size: 80px;
+  position: relative;
+  height: 120px;
+  border-radius: 180px;   
+}
+.textrr{
+  display: flex;
+  justify-content: center ;
+  font-size: 19px;
+  text-align: center;
+}    
+
+.gene11{
+  display: flex;
+  justify-content: center;
+}
+.gene11 button{
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 40px;
+width: 330px;
+margin-top: 20px;
+background-color:black;
+color: white;
+border-radius: 7px;
+cursor: pointer;
+}    

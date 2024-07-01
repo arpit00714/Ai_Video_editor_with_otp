@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .face {
+    border: 2px solid grey;
+    border-radius: 11px;
+    padding: 10px;
+    margin: 20px auto;
+    position: relative;
+    width: 90%;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .action_div{
+    position: absolute;
+    top: 30px; 
+    right: -20px; 
+  }
+
+  .btn_1{
+    border: none;
+    background-color: none;
+    font-size: 25px;
+  }
+
+  .action_div >button{
+    padding: 15px 20px;
+    transition-duration: 0.2s;
+    margin-right: 30px;
+    height: 20px;
+  }
+  .action_div > button:hover{
+    background-color: #88717146;
+    cursor: pointer;
+  }
+  
+  .face img {
+    height: 60px;
+    border-radius: 9px;
+  }
+  
+  .face .details {
+    flex: 1;
+  }
+  
+  .face .details p {
+    color: gray;
+  }
+  
+  .face .details h3 {
+    margin: 5px 0 0;
+    color: black;
+  }
+  
+  .face h1 {
+    color: grey;
+    margin-left: auto;
+  }
+  
+ 
+.icons{
+  position: fixed;
+  bottom: 160px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  right: 20%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+  .icon1{
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+   
+  
+
+
+    @media (min-width: 600px) {
+    .parent {
+      height: 100px;
+      padding: 0 40px;
+    }
+
+  
+    .face {
+      flex-direction: row;
+      padding: 20px;
+    }
+  
+    .face img {
+      height: 150px;
+    }
+  }
+  
+ 
+  @media (min-width: 992px) {
+    .parent {
+      height: 110px;
+      padding: 0 60px;
+    }
+  
+    .face {
+      flex-direction: row;
+      padding: 30px;
+    }
+  
+    .face img {
+      height: 140px;
+    }
+    }  
+   

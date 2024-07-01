@@ -1,0 +1,110 @@
+
+.nav16 {
+   height: 50px;
+    display: flex;
+   justify-content: center; 
+   text-align: center;
+   position: relative;
+   margin-left: 9rem;
+   
+ 
+ }
+ .nav16 p {
+
+   font-size: 30px;
+   margin-top: 25px;
+ 
+ }
+
+ .link_2{
+  text-decoration: none;
+  color: white;
+  width: 400px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: black;
+ }
+ 
+ .close-btn1 {
+   
+   width: 30px;
+   height: 30px;
+   background-color: red;
+   color: white;
+   border-radius: 50%;
+   cursor: pointer;
+   position: relative;
+   margin-left: 6rem;
+   margin-top: 5px;
+
+   
+ } 
+ 
+ .maind {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 15px;
+ 
+ }
+ .texta {
+   margin-top: 10px;
+   background-color: #eaf6f6;
+   border-radius: 15px;
+   width: 450px;
+   height: 180px;
+  
+ }
+ .texta p {
+   display: flex;
+   justify-content: space-between;
+   font-weight: bold;
+   padding: 10px;
+ }
+ 
+ .rangu {
+   margin-top: 10px;
+   display: flex;
+   justify-content: center;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ .rangu input {
+   accent-color: black;
+   width: 400px;
+ }
+ 
+ .contn {
+   margin-top: 10px;
+   display: flex;
+   padding: 0px 20px;
+   justify-content: center;
+    position: relative; 
+
+ }
+ .contn p button{
+   width: 350px;
+   max-width: 100%;
+   background-color: black;
+   padding: 15px;
+   border-radius: 7px;
+   cursor: pointer;
+   position: relative;
+ }
+ button[type="submit"] {
+   color: white;
+   font-weight: bold;
+ }
+ .picu {
+   max-width: 100%;
+   height: auto;
+   text-align: center;
+   margin-top: 20px;
+ }
+ .picu img{
+  max-width: 100%;
+   width: 500px;
+   height: auto;
+  
+ }  

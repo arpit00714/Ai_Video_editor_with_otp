@@ -1,0 +1,70 @@
+* {
+  margin: 0%;
+}
+.startasl {
+  display: flex;
+  justify-content: space-between;
+  background-color: #EAF6F6;
+  width: 100%;
+  height: 90px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+}
+.rangasl input {
+  accent-color: black;
+  width: 300px;
+}
+.startasl p {
+  display: flex;
+  align-items: center;
+  margin-left: 5px; 
+  margin-top: 35px;
+  position: relative;
+  background-color: lightgray;
+  height: 35px; 
+  width: 30px;
+  border-radius: 5px;
+  font-size: larger;
+  padding: 5px;
+  font-weight: bolder;
+  color: gray ;
+  
+}
+.startasl img {
+  border-radius: 60%;
+  margin-right: 5px;
+  height: 50px;
+  margin-top: 26px;
+}
+.startasl h1 {
+  margin-top: 30px;
+  position: relative;
+  margin-left: 20px;  
+  display: flex;
+  align-items: center;
+}
+center {
+  margin-top: 35px;
+}
+
+.mainasl h1 {
+  background-color: black;
+  color: white;
+  border-radius: 1900px;
+  height: 100px;
+  width: 100px;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media (max-width: 500px) {
+  .startasl h1 {
+    margin-left: 50px;
+  }
+}
